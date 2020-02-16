@@ -1,6 +1,8 @@
-# EcoHouse
+# EcoPower
 
-Este kit de medida está pensado para tomar las medidas de consumo eléctrico de una vivienda o de un edificio con consumos inferiores a 30 KW. El sistema permite diferenciar varias zonas.
+![EcoPower_equipo](docs/ecopower_equipo.JPG)
+
+Este desarrollo está pensado para tomar las medidas de consumo eléctrico de una vivienda o de un edificio con consumos inferiores a 30 KW. El sistema permite diferenciar varias zonas.
 
 EcoPower se puede instalar en el cuadro eléctrico principal o en cualquier otra parte que nos permita tomar datos del consumo mediante pinzas (transformadores de intensidad).
 
@@ -15,11 +17,9 @@ Las principales características de EcoBuilding son:
 - 6 entradas para sensores de corriente con salida estandar de 50 mA
 - Comunicación a Internet por WIFI local
 - Configurable vía Web
-- Display para mostrar el consumo instantáneo
 - Alimentación a 220 voltios de corriente alterna
 - Montaje en carril din
-- Es posible configurar dos entradas analógicas adicionales pero en este caso el display permanecerá inoperativo
-- La PCB integra un Arduino nano  con el ESP8266 12E
+- La PCB integra un Arduino nano con el ESP8266 12E
 - Compatible con el [servidor de Open Energy Monitor](https://emoncms.org/)
 
 ## Puesta a punto
@@ -33,4 +33,4 @@ En este punto se definen los parámetros del servidor de destino y la wifi local
 En caso de que se quiera actualizar el firmware del ESP a la última versión, este se puede encontrar en: [EcoPower-emonESP ](https://github.com/iotlibre/20180328_EmonESP)
 
 ### El firmware de Arduino
-El firmware que que esta cargado por defecto en el arduino nano funciona correctamente para tranformadores de intensidad de 100A/50mA sin embargo, si quiere cambiar la configuración puedes encontrar la última actualización del firmware en este repositorio:[EcoPower-iotpow_serial ](https://github.com/iotlibre/Ecohouse/tree/master/ecohouse-arduino_1)
+El firmware que que esta cargado por defecto en el arduino nano funciona correctamente para tranformadores de intensidad de 100A/50mA sin embargo, si quiere cambiar la configuración puede encontrar la última actualización del firmware en este repositorio:[EcoPower-iotpow_serial ](https://github.com/iotlibre/EcoPower/tree/master/firmware/iotpower_serial/iotpow_serial)
