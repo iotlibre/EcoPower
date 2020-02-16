@@ -1,0 +1,5 @@
+oscar_libreria_huellas
+
+Error loading netlist.
+IO_ERROR: fp-lib-table files contain no lib with nickname 'oscar_libreria_huellas'
+from fp_lib_table.cpp : FindRow() : line 641

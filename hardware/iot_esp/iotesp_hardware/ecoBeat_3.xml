@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/onsar/onsar_git/onsar/ecopower/hardware/iot_esp/iotesp_hardware/ecoBeat_3.sch</source>
+    <date>lun 23 sep 2019 08:25:16 CEST</date>
+    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Lector de pulsos</title>
+        <company/>
+        <rev>1</rev>
+        <date>2018-02-14</date>
+        <source>ecoBeat_3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_D3.0mm</footprint>
+      <libsource lib="ecoBeat_3-rescue" part="LED-RESCUE-ecoBeat_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83FD4B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_D3.0mm</footprint>
+      <libsource lib="ecoBeat_3-rescue" part="LED-RESCUE-ecoBeat_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83FF0F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A858B7F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A858C9F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>WeMos_mini</value>
+      <footprint>wemos_d1_mini:D1_mini_board</footprint>
+      <libsource lib="wemos_mini" part="WeMos_mini"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABA378E</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_02X05</value>
+      <footprint>oscar_libreria:Pin_Header_Straight_2x05_Pitch2.54mm_onsar</footprint>
+      <libsource lib="conn" part="CONN_02X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D78B836</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Test</value>
+      <footprint>Wire_Pads:SolderWirePad_single_0-8mmDrill</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7CA38F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Schottky</value>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7CA61B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_02X05">
+      <description>Connector 02x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ecoBeat_3-rescue" part="LED-RESCUE-ecoBeat_3">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-ecoBeat_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wemos_mini" part="WeMos_mini">
+      <description>WeMos D1 mini</description>
+      <docs>http://www.wemos.cc/Products/d1_mini.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WeMos_mini</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RST" type="power_in"/>
+        <pin num="2" name="A0" type="power_in"/>
+        <pin num="3" name="D0" type="BiDi"/>
+        <pin num="4" name="D5" type="BiDi"/>
+        <pin num="5" name="D6" type="BiDi"/>
+        <pin num="6" name="D7" type="BiDi"/>
+        <pin num="7" name="D8" type="BiDi"/>
+        <pin num="8" name="3V3" type="BiDi"/>
+        <pin num="9" name="5V" type="BiDi"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="D4" type="BiDi"/>
+        <pin num="12" name="D3" type="BiDi"/>
+        <pin num="13" name="D2" type="BiDi"/>
+        <pin num="14" name="D1" type="BiDi"/>
+        <pin num="15" name="Rx" type="BiDi"/>
+        <pin num="16" name="Tx" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="ecoBeat_3-rescue">
+      <uri>/home/onsar/onsar_git/onsar/ecopower/hardware/iot_esp/iotesp_hardware/ecoBeat_3-rescue.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="wemos_mini">
+      <uri>/home/onsar/onsar_git/onsar/ecopower/hardware/iot_esp/iotesp_hardware/library/wemos_mini.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/miso">
+      <node ref="P1" pin="10"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="2" name="/vcc_5v">
+      <node ref="D3" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="3" name="/esp_d1">
+      <node ref="U1" pin="14"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="4" name="/esp_d0">
+      <node ref="U1" pin="3"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="5" name="/sck">
+      <node ref="U1" pin="4"/>
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="P1" pin="7"/>
+      <node ref="U1" pin="10"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="7" name="/esp_d3">
+      <node ref="U1" pin="12"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="8" name="/mosi">
+      <node ref="P1" pin="8"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="9" name="/esp_d8">
+      <node ref="U1" pin="7"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="10" name="/esp_d2">
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="14" name="/esp_d4">
+      <node ref="U1" pin="11"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="15" name="/vin_5v">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="17" name="Net-(D2-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+  </nets>
+</export>

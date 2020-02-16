@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For power_measurement
+#######################################
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+config	KEYWORD2
+calcVI	KEYWORD2
+serialprint	KEYWORD2
+
+#######################################
+# Varialbes (KEYWORD2)
+#######################################
+
+realPower	KEYWORD2
+apparentPower	KEYWORD2
+powerFactor	KEYWORD2
+Vrms	KEYWORD2
+Irms	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SOCKET1	LITERAL1
+SOCKET2	LITERAL1
+SOCKET3	LITERAL1
+SOCKETALL	LITERAL1

@@ -1,0 +1,87 @@
+#######################################
+# Syntax Coloring Map For MAX11609
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MAX11609	KEYWORD1
+MAX	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+setupADC	KEYWORD2
+configuration	KEYWORD2
+read	KEYWORD2
+scan	KEYWORD2
+fastConfiguration	KEYWORD2
+fastRead	KEYWORD2
+fastScan	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MAX11609_ADDR	LITERAL1
+
+MAX11609_DEBUG	LITERAL1
+
+# Setup register constants
+REG_MODE_BIT		LITERAL1
+SEL_2_BIT			LITERAL1
+SEL_1_BIT			LITERAL1
+SEL_0_BIT			LITERAL1
+CLK_INPUT_BIT		LITERAL1
+UNI_BIP_BIT			LITERAL1
+RESET_CONFIG_BIT	LITERAL1
+
+# Configuration register constants
+SCAN_1_BIT		LITERAL1
+SCAN_0_BIT		LITERAL1
+CHANNEL_3_BIT		LITERAL1
+CHANNEL_2_BIT		LITERAL1
+CHANNEL_1_BIT		LITERAL1
+CHANNEL_0_BIT		LITERAL1
+MEASURE_MODE_BIT	LITERAL1
+
+# Measure mode constants
+DIFFERENTIAL_MODE	LITERAL1
+SINGLE_ENDED_MODE	LITERAL1
+
+# Channel selection constants
+CH_0	LITERAL1
+CH_1	LITERAL1
+CH_2	LITERAL1
+CH_3	LITERAL1
+CH_4	LITERAL1
+CH_5	LITERAL1
+CH_6	LITERAL1
+CH_7	LITERAL1
+
+CH_1_0	LITERAL1
+CH_0_1	LITERAL1
+CH_3_2	LITERAL1
+CH_2_3	LITERAL1
+CH_5_4	LITERAL1
+CH_4_5	LITERAL1
+CH_7_6	LITERAL1
+CH_6_7	LITERAL1
+
+ALL_CHANNELS	LITERAL1
+
+# Scanning configuration constants
+CH_0_TO_SELECTED	LITERAL1
+SELECTED_X8			LITERAL1
+UPPER_QUARTILE		LITERAL1
+ONLY_SELECTED		LITERAL1
+
+# Reference voltage constants
+REF_VDD			LITERAL1
+REF_EXTERNAL	LITERAL1
+REF_INTERNAL	LITERAL1
+
+
