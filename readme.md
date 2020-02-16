@@ -1,5 +1,6 @@
 # EcoPower
 
+<img src="https://github.com/iotlibre/EcoPower/blob/master/docs/ecopower_equipo.png" width="100" height="100">
 ![EcoPower_equipo](docs/ecopower_equipo.png)
 
 Este desarrollo está pensado para tomar las medidas de consumo eléctrico de una vivienda o de un edificio con consumos inferiores a 30 KW. El sistema permite diferenciar varias zonas.
