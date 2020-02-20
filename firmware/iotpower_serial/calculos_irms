@@ -1,0 +1,59 @@
+This voltage is measured relative to the processor supply voltage (in this case 3.3 V), which is used as the reference
+The reference voltage would give the maximum count of 2 exp10 ( = 1024).
+
+Var = 3,3 * (count/1024)
+
+Ratio = Ipr / Isec
+
+Isec = Var/R
+
+=================
+pri ----- sec
+100 ----> 50e-3
+
+ratio = 2000
+=================
+
+Ipr = Isec * Ratio
+
+Ipr = (Var/R) * Ratio
+
+Ipr = ((3,3 * (count/1024))/R) * Ratio
+
+Ipr = ((3,3* (count / 1024))/18) * Ratio
+
+Ipr = (count * 3,3 * Ratio)/(1024 * 18)
+
+Transformation relation for SCT-013-030
+current constant = 30 ÷ 1 = 30
+
+Transformation relation for SCT013-000
+current constant = (100 ÷ 0.050) ÷ 20,5 = 97,6
+
+Transformation relation for SCT036TS 600A:0.1A
+current constant = (600 ÷ 0.100) ÷ 10 = 600
+
+Transformation relation for SCT036TS 160A:0.04A
+current constant = (160 ÷ 0.040) ÷ 10 = 400
+
+Transformation relation for SCT036TS 160A:0.04A
+current constant = (160 ÷ 0.040) ÷ 20,5 = 195,1
+
+Transformation relation for SCT024TS 400A:0.1A
+current constant = (400 ÷ 0.1) ÷ 20,5 = 195
+
+YHDC TA17L -04
+20A -> 10 mA
+current constant = (20 ÷ 0.010) ÷ 10 = 97,56
+
+AZ 0500
+current constant = (500 ÷ 1) ÷ 10 = 50
+
+AZ 1000
+current constant = (1000 ÷ 1) ÷ 10 = 100
+
+
+
+
+
+
