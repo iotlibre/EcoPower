@@ -9,21 +9,21 @@
 // 97.6  66.5  51.3(39.0 ohm)  20.0 (100.0 ohm)
 
 #define NUMBER_OF_PWR_SENSORS 4
-#define TRANSFORMATOR_CONSTANT 10
+#define TRANSFORMATOR_CONSTANT 24
 
-#define MAME_PWR_1 "p1"
+#define MAME_PWR_1 "s1"
 #define ENTER_1 A0
 #define CURRENT_CONST_1 TRANSFORMATOR_CONSTANT
 
-#define MAME_PWR_2 "p2"
+#define MAME_PWR_2 "s2"
 #define ENTER_2 A1
 #define CURRENT_CONST_2 TRANSFORMATOR_CONSTANT
 
-#define MAME_PWR_3 "p3"
+#define MAME_PWR_3 "s3"
 #define ENTER_3 A2
 #define CURRENT_CONST_3 TRANSFORMATOR_CONSTANT
 
-#define MAME_PWR_4 "p4"
+#define MAME_PWR_4 "s4"
 #define ENTER_4 A3
 #define CURRENT_CONST_4 TRANSFORMATOR_CONSTANT
 
@@ -87,7 +87,7 @@ void configure_output(){
   pinMode(analog_inputs[4].pin_input, OUTPUT); 
   digitalWrite(analog_inputs[4].pin_input, LOW);
   pinMode(analog_inputs[5].pin_input, OUTPUT); 
-  digitalWrite(analog_inputs[4].pin_input, LOW);
+  digitalWrite(analog_inputs[5].pin_input, LOW);
 }
 
 void calculate_power(){
@@ -97,7 +97,7 @@ void calculate_power(){
   emon1.current(analog_inputs[6].pin_input,analog_inputs[6].constant_input); // calibration.
   double Vrms = emon1.calcIrms(141);  // Calculate Irms only, (119 20ms for algoritm )
   // Serial.println(millis()-millis_init);
-  if(Vrms < 40) Vrms = 230;
+  if(Vrms < 40) Vrms = 1;  // para evitar numeros muy elevados
   analog_inputs[6].power_sum+= Vrms; 
   analog_inputs[6].power_measurements++ ;    
 
