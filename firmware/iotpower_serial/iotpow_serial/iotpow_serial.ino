@@ -8,7 +8,7 @@ Sketchbook location
 
 
 
-#define DEBUG 1
+#define DEBUG 0
 
 #define BPS 115200 //Velocidad de las comunicaciones
 

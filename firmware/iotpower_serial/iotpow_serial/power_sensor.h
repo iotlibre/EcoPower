@@ -9,7 +9,7 @@
 // 97.6  66.5  51.3(39.0 ohm)  20.0 (100.0 ohm)
 
 #define NUMBER_OF_PWR_SENSORS 6
-#define TRANSFORMATOR_CONSTANT 195
+#define TRANSFORMATOR_CONSTANT 146.3
 
 #define MAME_PWR_1 "p1"
 #define ENTER_1 A0
@@ -37,7 +37,7 @@
 
 #define MAME_PWR_7 "v1"
 #define ENTER_7 A6
-#define CURRENT_CONST_7 180.2
+#define CURRENT_CONST_7 262.0  // transformador 8V
 
 
 // Falta la medida del voltage
