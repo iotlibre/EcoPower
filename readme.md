@@ -36,3 +36,20 @@ En caso de que se quiera actualizar el firmware del ESP a la última versión, e
 
 ### El firmware de Arduino
 El firmware que que esta cargado por defecto en el arduino nano funciona correctamente para tranformadores de intensidad de 100A/50mA sin embargo, si quiere cambiar la configuración puede encontrar la última actualización del firmware en este repositorio:[EcoPower-iotpow_serial ](https://github.com/iotlibre/EcoPower/tree/master/firmware/iotpower_serial/iotpow_serial)
+
+## Source code
+Copyright 2020 Endef Engineering SL.
+
+Tanto el hardware como el software de este repositorio han sido desarrollados por la empresa: [Endef Engineering Sl](https://endef.com)
+
+## Licencia
+* Los diseños de hardware estan disponibles bajo licencia "Creative Commons Attribution-ShareAlike 3.0 Unported License.".
+* El firmware se publica bajo la licencia GNU GPL V3 La documentación está sujeta a la Licencia "GNU Free Documentation"
+* Los diseños de hardware siguen los términos de la Declaración de principios 1.0 de OSHW (Open-source hardware).
+
+## Disclaimer
+Todo el código que se encuentra en este repositorio está bajo la licencia: "GNU V3 General Public License" por lo que las condiciones de su uso son las incluidas en esta licencia
+
+NUESTROS PRODUCTOS Y JUEGOS DE MONTAJE PUEDEN SER UTILIZADOS POR USUARIOS EXPERIMENTADOS Y CAPACITADOS BAJO SU PROPIO RIESGO. EN LA MEDIDA MÁXIMA QUE LO PERMITA LA LEY APLICABLE, POR EL PRESENTE RENUNCIAMOS CUALQUIER RESPONSABILIDAD, RIESGO Y DAÑOS DERIVADOS DE LA MUERTE O LESIONES PERSONALES RESULTANTES DEL MONTAJE O FUNCIONAMIENTO DE NUESTROS PRODUCTOS.
+
+Su seguridad es su propia responsabilidad, incluido el uso adecuado del equipo y el equipo de seguridad, y determinar si tiene la habilidad y la experiencia adecuadas. Endef Engineering se exime de toda responsabilidad por cualquier daño, lesión o gasto resultante. Es su responsabilidad asegurarse de que sus actividades cumplan con las leyes aplicables, incluidos los derechos de autor. Puede haber actualizaciones o correcciones importantes. Todo uso de las instrucciones, kits, proyectos y sugerencias dadas por Endef Ingeniería es bajo su propio riesgo. La tecnología (hardware, firmware y software) cambia constantemente, es posible que la documentación (incluidas las instrucciones y la guía de compilación) no esté completa o sea correcta.
